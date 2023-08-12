@@ -6,10 +6,20 @@ function renderLicenseBadge(license) {
 }
 
 function renderLicenseLink(license) {
-    if (license) {
-        return `[License](#license)`;
+    switch (license) {
+        case 'MIT':
+            return `[MIT License](https://opensource.org/licenses/MIT)`;
+        case 'Apache':
+            return `[Apache License](https://www.apache.org/licenses/LICENSE-2.0)`;
+        case 'Artistic':
+            return `[Artistic License](https://opensource.org/licenses/Artistic-2.0)`;
+        case 'BSD':
+            return `[BSD License](https://opensource.org/license/bsd-3-clause/)`;
+        case 'GPL':
+            return `[GPL License](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
+        default:
+            return '';
     }
-    return '';
 }
 
 function renderLicenseSection(license) {

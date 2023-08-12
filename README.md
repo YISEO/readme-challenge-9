@@ -38,7 +38,7 @@ If you would like to contribute, please follow these steps:
 No automated tests are provided for this application at the moment
 
 ## License
-This project is licensed under the MIT license - see the [License](#license) file for details.
+This project is licensed under the MIT license - see the [MIT License](https://opensource.org/licenses/MIT) file for details.
 
 ## Questions
 For questions about this project, feel free to reach out to me:<br>
