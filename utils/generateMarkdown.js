@@ -50,8 +50,7 @@ ${data.contribution}
 ${data.tests}
 
 ## License
-${renderLicenseSection(data.license)}
-${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)} - see the ${renderLicenseLink(data.license)} file for details
 
 ## Questions
 For questions about this project, feel free to reach out to me:
